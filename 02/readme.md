@@ -30,7 +30,7 @@ Jedes Passwort was diesese Anforderungen zustimmt muss gezählt werden
 
 
 ## Lösung
-Wir haben die Aufgabe in Java gelöst. Die .class Dateien haben absolute Pfade.
+Wir haben die Aufgabe in Java gelöst. Die .java Dateien haben absolute Pfade.
 
 Wir haben die einzelnen Lines gesplited, verarbeitet und danach ausgewertet und dadurch die validen Passwörter ermittelt.
 
@@ -49,6 +49,6 @@ Jedes Passwort was diesese Anforderungen zustimmt muss gezählt werden
 
 ## Lösung
 
-Wir haben die Aufgabe in Java gelöst. Die .class Dateien haben absolute Pfade.
+Wir haben die Aufgabe in Java gelöst. Die .java Dateien haben absolute Pfade.
 
 Wir haben die einzelnen Lines gesplited, verarbeitet und danach ausgewertet und dadurch die validen Passwörter ermittelt.
