@@ -11,3 +11,4 @@
 
 [Tag 1: Report Repair](01/readme.md)
 
+[Tag 2: Password Philosophy](02/readme.md)
