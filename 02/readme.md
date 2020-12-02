@@ -1,7 +1,7 @@
 # Tag 2
 
 
-## Aufgabe 2
+## Aufgabe 1
 
 
 Das Problem was so augestellt: 
@@ -30,11 +30,25 @@ Jedes Passwort was diesese Anforderungen zustimmt muss gezählt werden
 
 
 ## Lösung
+Wir haben die Aufgabe in Java gelöst. Die .class Dateien haben absolute Pfade.
+
+Wir haben die einzelnen Lines gesplited, verarbeitet und danach ausgewertet und dadurch die validen Passwörter ermittelt.
 
 
 ## Aufgabe 2
 
+Das Problem was so augestellt: 
 
+Wir bekamen ein liste in dem Format
+
+`zahl1`-`zahl2` `buchstabe` : `random string`
+
+Unsere Aufgabe war es zu Prüfen ob anstelle `zahl1` oder an Stelle `zahl2` im `random string` der Buchstabe vorhanden ist. Der Buchstabe darf aber nur einmal vorkommen.
+
+Jedes Passwort was diesese Anforderungen zustimmt muss gezählt werden
 
 ## Lösung
 
+Wir haben die Aufgabe in Java gelöst. Die .class Dateien haben absolute Pfade.
+
+Wir haben die einzelnen Lines gesplited, verarbeitet und danach ausgewertet und dadurch die validen Passwörter ermittelt.
