@@ -49,7 +49,7 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 <td>🙄</td><td>✅</td>
 </tr>
 <tr>
-<td>C#</td>
+<td>👀🔪</td>
 <td>🤷‍♀️</td><td>❌</td>
 </tr>
 </tbody>
