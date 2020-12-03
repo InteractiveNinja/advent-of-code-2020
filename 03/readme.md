@@ -55,7 +55,22 @@ Das Feld wurde hier erweitert um bis an den Boden zu kommen, Wenn eine `0` zu se
 
 
 
-<!-- ## Lösung -->
+## Lösung
+
+### Python setze uns einige Steine im Weg dennoch gelang uns den Sieg über die 🐍
+
+
+Die Anzahl Zeichen die wir nach rechts gingen mussten war unser Index für das String Array, die `downs` also die Felder die wir runter gehen mussten waren die einzelnen Zeilen lädiglich prüfen ob an der Zeile und an dem StringIndex ein `#` zu finden war. Wenn das so war wurde ein Zähler hochgezählt.
+
+
+## Aufgabe 2
+
+
+Gleiche Aufgabe bloss wurden nun die Anzahl `rights` und die Anzahl `downs` mehrfach verändert um verschiedene Ergebnisse zu erlangen. Das Produkt dieser Ergebnisse ist dann der Schlüssel.
+
+## Lösung
+
+Lediglich oben erstellte Logik in eine Funktion gepackt.
 
 
 
