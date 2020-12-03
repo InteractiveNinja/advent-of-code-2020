@@ -32,20 +32,21 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 <table>
 <thead>
 <td>Sprache</td>
+<td>Spassfaktor</td>
 <td>Status</td>
 </thead>
 <tbody>
 <tr>
 <td>Javascript / NodeJS</td>
-<td>🔥 ✅</td>
+<td>🔥</td><td> ✅</td>
 </tr>
 <tr>
 <td>Java</td>
-<td>🔥 ✅</td>
+<td>🔥</td><td> ✅</td>
 </tr>
 <tr>
 <td>Python</td>
-<td>🔥 ✅</td>
+<td>🤷‍♀️</td><td>❌</td>
 </tr>
 </tbody>
 </table>
