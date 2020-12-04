@@ -14,7 +14,7 @@ Advent of Code ist ein Adventskalender mit kleinen Programmierrätseln für eine
 Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen möglichst verschieden arbeiten und daher möchten wir auch möglichst viele Programmiersprachen verwenden um diese Aufgaben zu lösen.
 
 ### Fazit
-*50 Challanges in 25 Tagen für [@InteractiveNinja](https://github.com/InteractiveNinja), [@CoalPlays](https://github.com/CoalPlays) [@raquelima](https://github.com/raquelima) in möglichst viele Sprachen*
+*50 Challenges in 25 Tagen für [@InteractiveNinja](https://github.com/InteractiveNinja), [@CoalPlays](https://github.com/CoalPlays) [@raquelima](https://github.com/raquelima) in möglichst viele Sprachen*
 
 
 ### Links zu den Aufgaben
@@ -50,7 +50,11 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 </tr>
 <tr>
 <td>👀🔪</td>
-<td>🤷‍♀️</td><td>❌</td>
+<td>😁</td><td>✅</td>
+</tr>
+<tr>
+<td>🐘</td>
+<td>🤷‍♂️</td><td>❌</td>
 </tr>
 </tbody>
 </table>

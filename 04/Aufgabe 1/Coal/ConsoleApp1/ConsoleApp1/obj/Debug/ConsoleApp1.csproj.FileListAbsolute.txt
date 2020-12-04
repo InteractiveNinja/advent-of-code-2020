@@ -1,0 +1,10 @@
+C:\Users\Elias\Desktop\advent-of-code-2020\04\Aufgabe 1\Coal\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Elias\Desktop\advent-of-code-2020\04\Aufgabe 1\Coal\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Elias\Desktop\advent-of-code-2020\04\Aufgabe 1\Coal\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Elias\Desktop\advent-of-code-2020\04\Aufgabe 1\Coal\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\Elias\Desktop\advent-of-code-2020\04\Aufgabe 1\Coal\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Elias\Desktop\advent-of-code-2020\04\Aufgabe 1\Coal\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Elias\Desktop\advent-of-code-2020\04\Aufgabe 1\Coal\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Elias\Desktop\advent-of-code-2020\04\Aufgabe 1\Coal\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Elias\Desktop\advent-of-code-2020\04\Aufgabe 1\Coal\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Elias\Desktop\advent-of-code-2020\04\Aufgabe 1\Coal\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
