@@ -26,6 +26,8 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 
 [Tag 3: Toboggan Trajectory](03/readme.md)
 
+[Tag 4: Passport Processing](04/readme.md)
+
 ## Verwendete Programmiersprachen
 
 
