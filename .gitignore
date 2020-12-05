@@ -1,0 +1,9 @@
+.vs
+packages
+*.sln
+bin
+obj
+Properties
+App.config
+packages.config
+ConsoleApp1.csproj
