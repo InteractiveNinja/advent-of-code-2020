@@ -1,27 +1,27 @@
-## First Regex
+## 1 Regex
 
-[(\w+)#]+
-"$0"
+`[(\w+)#]+`
+`"$0"`
 
-## Second Regex
-^\n
-},\n{
-## Third Regex
+## 2 Regex
+`^\n`
+`},\n{`
+## 3 Regex
 
-\s
-,
+`\s`
+`,`
 
-# Foruth Regex
+# 4 Regex
 
-"\n
+`"\n`
 
-$0,
-
-
-
-## Fifth Regex
-
-,\},
+`$0,`
 
 
-},
+
+## 5 Regex
+
+`,\},`
+
+
+`},`
