@@ -28,6 +28,8 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 
 [Tag 4: Passport Processing](04/readme.md)
 
+[Tag 5: Binary Boarding](05/readme.md)
+
 ## Verwendete Programmiersprachen
 
 
@@ -56,6 +58,10 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 </tr>
 <tr>
 <td>🐘</td>
+<td>👤🔫</td><td>✅</td>
+</tr>
+<tr>
+<td>GO</td>
 <td>🤷‍♂️</td><td>❌</td>
 </tr>
 </tbody>
