@@ -30,6 +30,10 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 
 [Tag 5: Binary Boarding](05/readme.md)
 
+[Tag 6: Custom Customs](06/readme.md)
+
+[Tag 7: Handy Haversacks](07/readme.md)
+
 ## Verwendete Programmiersprachen
 
 
@@ -62,7 +66,11 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 </tr>
 <tr>
 <td>C++</td>
-<td>🤷‍♂️</td><td>❌</td>
+<td>⚰</td><td>✅</td>
+</tr>
+<tr>
+<td>Ruby</td>
+<td>🤷</td><td>❌</td>
 </tr>
 </tbody>
 </table>
