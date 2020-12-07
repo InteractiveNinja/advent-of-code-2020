@@ -17,3 +17,4 @@ Jetzt müssen wir Wissen anhand von unserem Input wieviele Koffer einen scheinen
 
 ## Lösung
 
+
