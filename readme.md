@@ -36,6 +36,8 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 
 [Tag 8: Handheld Halting](08/readme.md)
 
+[Tag 9: Encoding Error](09/readme.md)
+
 ## Verwendete Programmiersprachen
 
 
@@ -72,7 +74,11 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 </tr>
 <tr>
 <td>Ruby</td>
-<td></td><td>❌</td>
+<td>💕</td><td>✅</td>
+</tr>
+<tr>
+<td>Typescript</td>
+<td>👑</td><td>✅</td>
 </tr>
 </tbody>
 </table>
