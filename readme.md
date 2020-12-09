@@ -34,6 +34,8 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 
 [Tag 7: Handy Haversacks](07/readme.md)
 
+[Tag 8: Handheld Halting](08/readme.md)
+
 ## Verwendete Programmiersprachen
 
 
