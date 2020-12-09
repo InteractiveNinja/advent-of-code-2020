@@ -7,3 +7,4 @@ Properties
 App.config
 packages.config
 ConsoleApp1.csproj
+node_modules
