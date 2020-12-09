@@ -12,7 +12,7 @@ die Zahl kann nur Gültig sein wenn sie mit der Summe aus 2 Zahlen in diesem Ber
 
 Die Lösung war es Simple, ich hatte immer 25 Zahlen relativ zu der 26 Zahl und prüfte ob eine Summer der Zahl vorhanden war die, die 26 Zahl ergab, wenn das so war fuhr ich fort. Wo der Schlüssel nicht ausging gab ich die Zahl aus.
 
-<h2>Aufgabe haben wir zu komplett zerstört</h2>
+<h2>Aufgabe haben wir komplett zerstört</h2>
 
 <img src="https://media4.giphy.com/media/55bqPozrvWmomKsqxs/giphy.gif?cid=ecf05e478ebd622e4e25f7d6f4b386320992123284457de0&rid=giphy.gif">
 
