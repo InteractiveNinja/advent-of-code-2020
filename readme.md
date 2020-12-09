@@ -70,15 +70,31 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 </tr>
 <tr>
 <td>Ruby</td>
-<td>👑</td><td>✅</td>
-</tr>
-<tr>
-<td>Bash</td>
-<td>🤷‍♀️ </td><td>❌</td>
+<td></td><td>❌</td>
 </tr>
 </tbody>
 </table>
 
+## Aufgaben die wir nicht geschafft 
+
+
+<table>
+<thead>
+<td>Tag</td>
+<td>Retter</td>
+</thead>
+<tbody>
+<tr>
+<td><a href="07/readme.md">07 Teil 2</a></td>
+<td>@Thomas Loock</td>
+</tr>
+<tr>
+<td><a href="08/readme.md">08 Teil 1 & 2</a></td>
+<td>@Thomas Loock</td>
+
+</tr>
+</tbody>
+</table>
  
 
 
