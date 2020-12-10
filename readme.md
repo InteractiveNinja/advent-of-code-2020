@@ -38,6 +38,8 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 
 [Tag 9: Encoding Error](09/readme.md)
 
+[Tag 10: Adapter Array](10/readme.md)
+
 ## Verwendete Programmiersprachen
 
 
@@ -80,6 +82,10 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 <td>Typescript</td>
 <td>👑</td><td>✅</td>
 </tr>
+<tr>
+<td>Kotlin</td>
+<td>💩</td><td>✅</td>
+</tr>
 </tbody>
 </table>
 
@@ -98,6 +104,11 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 </tr>
 <tr>
 <td><a href="08/readme.md">08 Teil 1 & 2</a></td>
+<td>@Thomas Loock</td>
+
+</tr>
+<tr>
+<td><a href="10/readme.md">10 Teil 2</a></td>
 <td>@Thomas Loock</td>
 
 </tr>
