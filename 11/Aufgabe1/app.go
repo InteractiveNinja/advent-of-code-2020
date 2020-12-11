@@ -7,22 +7,27 @@ import (
 )
 
 func main() {
-	// for i := 0; i < 100; i++ {
-	// 	repeat()
-	// }
-	// counter := 0
-	// data, _ := ioutil.ReadFile("test.txt")
-	// lines := strings.Split(string(data), ",")
-	// for i := 0; i < len(lines); i++ {
-	// 	line := strings.Split(lines[i], "")
-	// 	for ii := 0; ii < len(line); ii++ {
-	// 		if line[ii] == "#" {
-	// 			counter++
-	// 		}
-	// 	}
-	// }
-	// fmt.Println(counter)
-	repeat()
+
+	// repeat()
+	doallotherstuff()
+}
+
+func doallotherstuff() {
+	for i := 0; i < 100; i++ {
+		repeat()
+	}
+	counter := 0
+	data, _ := ioutil.ReadFile("test.txt")
+	lines := strings.Split(string(data), ",")
+	for i := 0; i < len(lines); i++ {
+		line := strings.Split(lines[i], "")
+		for ii := 0; ii < len(line); ii++ {
+			if line[ii] == "#" {
+				counter++
+			}
+		}
+	}
+	fmt.Println(counter)
 }
 
 func repeat() {
@@ -56,23 +61,28 @@ func dotheStuff(filename string) []string {
 			above, below := checkAboveBelow(lines, i, ii)
 			leftup, rightup, leftdown, rightdown := upcheckLeftRight(lines, i, ii)
 			counter = checkBools(left, right, above, below, leftup, leftdown, rightdown, rightup)
-			if counter <= 3 {
-				newchars += "#"
-				chars[ii] = "#"
+			if chars[ii] == "L" || chars[ii] == "#" {
+				if chars[ii] == "#" && counter > 3 {
+					newchars += "L"
+					chars[ii] = "L"
+				} else if chars[ii] == "L" && counter == 0 {
 
-			} else {
-				newchars += "L"
-				chars[ii] = "L"
+					newchars += "#"
+					chars[ii] = "#"
+				} else {
+					newchars += chars[ii]
 
+				}
 			}
-			fmt.Println(chars[ii], counter, "left", left, "right", right, "above", above, "below", below, "leftup", leftup, "leftdown", leftdown, "rightdown", rightdown, "rightup", rightup)
+
+			// fmt.Println(chars[ii], ii+1, counter, "left", left, "right", right, "above", above, "below", below, "leftup", leftup, "leftdown", leftdown, "rightdown", rightdown, "rightup", rightup)
 
 		}
 		nstr := ""
 		for ii := 0; ii < len(chars); ii++ {
 			nstr += chars[ii]
 		}
-		lines[i] = nstr
+		// lines[i] = nstr
 		updatedline = append(updatedline, newchars)
 	}
 
@@ -131,10 +141,7 @@ func upcheckLeftRight(lines []string, linesindex int, index int) (bool, bool, bo
 	rightup := false
 	leftdown := false
 	rightdown := false
-	if linesindex-1 >= 0 {
-		if linesindex-1 == 0 {
-			index = index - 1
-		}
+	if linesindex-1 > 0 {
 		chars := strings.Split(lines[linesindex-1], "")
 		if index-1 > 0 {
 			if chars[index-1] == "#" {
@@ -172,10 +179,10 @@ func upcheckLeftRight(lines []string, linesindex int, index int) (bool, bool, bo
 func checkAboveBelow(lines []string, linesindex int, index int) (bool, bool) {
 	above := false
 	below := false
-	if linesindex-1 >= 0 {
-		if linesindex-1 == 0 {
-			index = index - 1
-		}
+	if linesindex-1 > 0 {
+		// if linesindex-1 == 0 {
+		// 	index = index - 1
+		// }
 
 		char := strings.Split(lines[linesindex-1], "")[index]
 
@@ -184,11 +191,9 @@ func checkAboveBelow(lines []string, linesindex int, index int) (bool, bool) {
 		}
 	}
 	if linesindex+1 < len(lines) {
-		// if linesindex+1 == len(lines) {
-		// 	index = index - 1
-		// }
 		char := strings.Split(lines[linesindex+1], "")[index]
 		if char == "#" {
+
 			below = true
 		}
 	}
