@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io/ioutil"
 	"strings"
 )
@@ -35,8 +36,9 @@ func dotheStuff(filename string) []string {
 			left, right := checkLeftRight(chars, ii)
 			above, below := checkAboveBelow(lines, i, ii)
 			leftup, rightup, leftdown, rightdown := upcheckLeftRight(lines, i, ii)
-			if left && right && above && below && leftup && leftdown && rightdown && rightup {
-				counter++
+			counter = checkBools(left, right, above, below, leftup, leftdown, rightdown, rightup)
+			fmt.Println(chars[ii], left, right, above, below, leftup, leftdown, rightdown, rightup)
+			if counter <= 3 {
 				newchars += "#"
 
 			} else {
@@ -46,6 +48,36 @@ func dotheStuff(filename string) []string {
 		updatedline = append(updatedline, newchars)
 	}
 	return updatedline
+}
+
+func checkBools(left bool, right bool, above bool, below bool, leftup bool, leftdown bool, rightdown bool, rightup bool) int {
+	counter := 0
+	if !left {
+		counter++
+	}
+	if !right {
+		counter++
+	}
+	if !above {
+		counter++
+	}
+	if !below {
+		counter++
+	}
+	if !leftup {
+		counter++
+	}
+	if !leftdown {
+		counter++
+	}
+	if !rightdown {
+		counter++
+	}
+	if !rightup {
+		counter++
+	}
+	return counter
+
 }
 
 func checkLeftRight(line []string, index int) (bool, bool) {
