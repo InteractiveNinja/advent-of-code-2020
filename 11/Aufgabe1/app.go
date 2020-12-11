@@ -1,28 +1,33 @@
 package main
 
 import (
-	"fmt"
 	"io/ioutil"
 	"strings"
 )
 
 func main() {
-	data := dotheStuff()
+	data := dotheStuff("test.txt")
+	var linestring string
 	for i := 0; i < len(data); i++ {
-		fmt.Println(data[i])
+		if i < len(data) {
+			linestring += data[i]
+			continue
+		}
+		linestring += data[i] + "\n"
 	}
+	ioutil.WriteFile("test.txt", []byte(linestring), 02)
 }
 
-func dotheStuff() []string {
-	data, _ := ioutil.ReadFile("test2.txt")
+func dotheStuff(filename string) []string {
+	data, _ := ioutil.ReadFile(filename)
 	lines := strings.Split(string(data), "\n")
 	updatedline := []string{}
-	// counter := 0
+	counter := 0
 	for i := 0; i < len(lines); i++ {
 		chars := strings.Split(lines[i], "")
 		newchars := ""
 		for ii := 0; ii < len(chars); ii++ {
-			if chars[ii] != "L" {
+			if chars[ii] != "L" && chars[ii] != "#" {
 				newchars += chars[ii]
 				continue
 			}
@@ -31,11 +36,11 @@ func dotheStuff() []string {
 			above, below := checkAboveBelow(lines, i, ii)
 			leftup, rightup, leftdown, rightdown := upcheckLeftRight(lines, i, ii)
 			if left && right && above && below && leftup && leftdown && rightdown && rightup {
-				// counter++
+				counter++
 				newchars += "#"
 
 			} else {
-				newchars += chars[ii]
+				newchars += "L"
 			}
 		}
 		updatedline = append(updatedline, newchars)
