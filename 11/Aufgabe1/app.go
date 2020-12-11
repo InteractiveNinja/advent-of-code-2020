@@ -7,6 +7,13 @@ import (
 )
 
 func main() {
+	data := dotheStuff()
+	for i := 0; i < len(data); i++ {
+		fmt.Println(data[i])
+	}
+}
+
+func dotheStuff() []string {
 	data, _ := ioutil.ReadFile("test2.txt")
 	lines := strings.Split(string(data), "\n")
 	updatedline := []string{}
@@ -23,7 +30,6 @@ func main() {
 			left, right := checkLeftRight(chars, ii)
 			above, below := checkAboveBelow(lines, i, ii)
 			leftup, rightup, leftdown, rightdown := upcheckLeftRight(lines, i, ii)
-			fmt.Println(left, right, above, below, leftup, rightup, rightdown, leftdown)
 			if left && right && above && below && leftup && leftdown && rightdown && rightup {
 				// counter++
 				newchars += "#"
@@ -34,10 +40,7 @@ func main() {
 		}
 		updatedline = append(updatedline, newchars)
 	}
-	// fmt.Println(counter)
-	for i := 0; i < len(updatedline); i++ {
-		fmt.Println(updatedline[i])
-	}
+	return updatedline
 }
 
 func checkLeftRight(line []string, index int) (bool, bool) {
@@ -97,17 +100,17 @@ func upcheckLeftRight(lines []string, linesindex int, index int) (bool, bool, bo
 	if !rightdown && !leftdown {
 		chars := strings.Split(lines[linesindex+1], "")
 		if index-1 < 0 {
-			leftup = true
+			leftdown = true
 		} else {
 			if chars[index-1] != "#" {
-				leftup = true
+				leftdown = true
 			}
 		}
 		if index+1 >= len(chars) {
-			rightup = true
+			rightdown = true
 		} else {
 			if chars[index+1] != "#" {
-				rightup = true
+				rightdown = true
 			}
 		}
 	}
