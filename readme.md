@@ -40,6 +40,12 @@ Unser Ziel ist es diese 50 Aufgaben innerts 25 Tagen zu lösen, wir wollen mögl
 
 [Tag 10: Adapter Array](10/readme.md)
 
+[Tag 11: Seating System](11/readme.md)
+
+[Tag 12: Rain Risk](12/readme.md)
+
+[Tag 13: Shuttle Search](13/readme.md)
+
 ## Verwendete Programmiersprachen
 
 
