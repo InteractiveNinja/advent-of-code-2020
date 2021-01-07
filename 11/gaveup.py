@@ -5,12 +5,12 @@ def load_data():
         return [list(line.strip()) for line in file]
 
 def occupied_1(col,row):
-    occupied = -1 * int(grid[row][col] == "#")
+    occupied = -1 * int(grid[row][col] == '#')
     for dx in range(-1,2):
         for dy in range(-1,2):
             xp, yp = col + dx, row + dy
             if 0 <= xp < len(grid[0]) and 0 <= yp <len(grid):
-                occupied += int(grid[yp][xp]== "#")
+                occupied += int(grid[yp][xp]== '#')
     return occupied
 
 def occupied_2(col, row):
@@ -35,7 +35,7 @@ def occupied_2(col, row):
             step += 1
         return adjacent
 
-def round(adjacent,func):
+def round(adjacent,func):+
     new = []
     last = False
     for y in range(len(grid)):
@@ -43,10 +43,10 @@ def round(adjacent,func):
         for x in range(len(grid[0])):
             new[y][x] = grid[y][x]
             occupied = func(x,y)
-            if grid[y][x] == "L" and occupied == 0:
+            if grid[y][x] == 'L' and occupied == 0:
                 new[y][x]= '#'
                 last = True
-            elif grid[y][x] == "#" and occupied >= adjacent:
+            elif grid[y][x] == '#' and occupied >= adjacent:
                 new[y][x] = 'L'
                 last = True
     return new, last
